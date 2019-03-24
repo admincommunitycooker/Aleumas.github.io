@@ -2549,23 +2549,23 @@ input, select, textarea {
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #262626;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #262626;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #262626;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #262626;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: ;
 				}
 
 /* Image */
@@ -2599,7 +2599,7 @@ input, select, textarea {
 		.image.right {
 			float: right;
 			margin: 0 0 1em 1.5em;
-			top: 0.25em;
+			top: -2.3em;
 		}
 
 		.image.fit {
@@ -3405,7 +3405,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: white;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
