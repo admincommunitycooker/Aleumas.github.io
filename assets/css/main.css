@@ -3565,6 +3565,10 @@ input, select, textarea {
 		position: fixed;
 		
 	}
+	.top-container:empty
+	{
+	    display:none;
+	}
 	@media screen and (max-width: 736px) {
 		.top-container {
 			padding: 4px;
