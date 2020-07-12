@@ -53,9 +53,13 @@
 	
 		function myFunction() {
 		  if ($window.pageYOffset > sticky) {
-		    header.classList.add("sticky");
+			  header.classList.add("sticky");
+			  console.log("added sticky!"); 
 		  } else {
-		    header.classList.remove("sticky");
+			  header.classList.remove("sticky");
+			  console.log("removed sticky!"); 
+			 
+	
 		  }
 		}
 	
@@ -63,6 +67,8 @@
 		header.classList.add("sticky")
 		$window.onscroll = function() {
 			if(breakpoints.active('<=medium'))
+			   console.log(sticky); 
+			   console.log($window.pageYOffset); 
 			   myFunction();
 		};
 
