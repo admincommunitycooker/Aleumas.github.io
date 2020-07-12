@@ -10,7 +10,8 @@
 		$body = $('body'),
 		$sidebar = $('#sidebar');
 	
- 	var sticky = $sidebar.offsetTop;
+	var header = document.getElementById("sidebar")
+ 	var sticky = header.offsetTop;
 
 	// Breakpoints.
 		breakpoints({
@@ -48,7 +49,7 @@
 
 			});
 	//Sidebar sticky
-		$sidebar.classList.add("sticky")
+		header.classList.add("sticky")
 	//	$window.onscroll = function() {
 // 			if(breakpoints.active('<=medium')
 // 			   myFunction()
