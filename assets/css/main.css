@@ -3882,7 +3882,7 @@ input, select, textarea {
 						display: flex;
 						flex-wrap: wrap; 
 						height: inherit;
-						line-height: 1.56em;
+						line-height: 3.5em;
 						justify-content: center; 
 						margin: 0;
 					}
@@ -3890,7 +3890,7 @@ input, select, textarea {
 						#sidebar nav ul li {
 							display: block;
 							height: inherit;
-							line-height: inherit;
+							line-height: 1.56em;
 							margin: 0 0 0 2em;
 							padding: 0;
 						}
