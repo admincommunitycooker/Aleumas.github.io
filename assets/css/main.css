@@ -3564,8 +3564,11 @@ input, select, textarea {
 	.sticky {
 		position: fixed;
 		
-		top: 0;
-		
+	}
+	@media screen and (max-width: 736px) {
+		.top-container {
+			padding: 4px;
+		}
 	}
 /* Sidebar */
 
@@ -3862,7 +3865,7 @@ input, select, textarea {
 				overflow: hidden;
 				padding: 0;
 				text-align: center;
-				top: 4px;
+				top: 0;
 				width: 100%;
 			}
 
