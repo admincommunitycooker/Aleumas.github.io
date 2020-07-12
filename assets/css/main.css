@@ -3563,6 +3563,7 @@ input, select, textarea {
 
 	.sticky {
 		position: fixed;
+		
 		top: 0;
 		
 	}
@@ -3576,6 +3577,7 @@ input, select, textarea {
 		left: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
+		transition: top 1s; 
 		
 		text-align: right;
 		top: 0;
