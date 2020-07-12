@@ -67,10 +67,11 @@
 	//Sidebar sticky
 		header.classList.add("sticky")
 		window.onscroll = function() {
-			if(breakpoints.active('<=medium'))
+			if(breakpoints.active('<=medium')){
 			   console.log(sticky); 
 			   console.log(window.pageYOffset); 
 			   myFunction();
+			}
 		};
 
 // 		
