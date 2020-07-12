@@ -3883,6 +3883,7 @@ input, select, textarea {
 						flex-wrap: wrap; 
 						height: inherit;
 						line-height: inherit;
+						justify-content: center; 
 						margin: 0;
 					}
 
