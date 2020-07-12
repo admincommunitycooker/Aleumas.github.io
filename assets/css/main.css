@@ -3563,6 +3563,7 @@ input, select, textarea {
 
 	.sticky {
 		position: fixed;
+		top: 0;
 		
 	}
 /* Sidebar */
@@ -3843,6 +3844,7 @@ input, select, textarea {
 			-ms-transform: translateY(2em);
 			transform: translateY(2em);
 			opacity: 0;
+			
 		}
 
 		
@@ -3858,7 +3860,7 @@ input, select, textarea {
 				overflow: hidden;
 				padding: 0;
 				text-align: center;
-				top: 2px;
+				top: 4px;
 				width: 100%;
 			}
 
