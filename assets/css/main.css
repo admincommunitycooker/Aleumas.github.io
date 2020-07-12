@@ -3560,7 +3560,9 @@ input, select, textarea {
 	#header + #wrapper + #footer > .inner {
 		margin: 0 auto;
 	}
-
+	.sticky {
+		position: fixed;
+	}
 /* Sidebar */
 
 	#sidebar {
@@ -3571,7 +3573,7 @@ input, select, textarea {
 		left: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
-		position: fixed;
+		
 		text-align: right;
 		top: 0;
 		width: 18em;
@@ -3882,7 +3884,7 @@ input, select, textarea {
 						display: flex;
 						flex-wrap: wrap; 
 						height: inherit;
-						line-height: 3.5em;
+						line-height: inherit;
 						justify-content: center; 
 						margin: 0;
 					}
@@ -3890,7 +3892,7 @@ input, select, textarea {
 						#sidebar nav ul li {
 							display: block;
 							height: inherit;
-							line-height: 1.56em;
+							line-height: inherit;
 							margin: 0 0 0 2em;
 							padding: 0;
 						}
