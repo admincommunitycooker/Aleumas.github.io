@@ -9,6 +9,7 @@
 	var	$window = $(window),
 		$body = $('body'),
 		$sidebar = $('#sidebar');
+	console.log("hello there"); 
 	
 	var header = document.getElementById("sidebar")
  	var sticky = header.offsetTop;
@@ -52,7 +53,7 @@
 	
 	
 		function myFunction() {
-		  if ($window.pageYOffset > sticky) {
+		  if (window.pageYOffset > sticky) {
 			  header.classList.add("sticky");
 			  console.log("added sticky!"); 
 		  } else {
@@ -65,10 +66,10 @@
 	
 	//Sidebar sticky
 		header.classList.add("sticky")
-		$window.onscroll = function() {
+		window.onscroll = function() {
 			if(breakpoints.active('<=medium'))
 			   console.log(sticky); 
-			   console.log($window.pageYOffset); 
+			   console.log(window.pageYOffset); 
 			   myFunction();
 		};
 
