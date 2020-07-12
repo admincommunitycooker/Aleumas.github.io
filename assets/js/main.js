@@ -48,15 +48,9 @@
 					$(this).parents('form').submit();
 
 			});
-	//Sidebar sticky
-		header.classList.add("sticky")
-		$window.onscroll = function() {
-			if(breakpoints.active('<=medium')
-			   myFunction()
-		};
-
-// 		
-
+	
+	
+	
 		function myFunction() {
 		  if ($window.pageYOffset > sticky) {
 		    header.classList.add("sticky");
@@ -64,6 +58,16 @@
 		    header.classList.remove("sticky");
 		  }
 		}
+	
+	//Sidebar sticky
+		header.classList.add("sticky")
+		$window.onscroll = function() {
+			if(breakpoints.active('<=medium')
+			   myFunction();
+		};
+
+// 		
+
 		
 	// Sidebar.
 		if ($sidebar.length > 0) {
