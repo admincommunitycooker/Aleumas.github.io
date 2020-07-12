@@ -3841,11 +3841,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1280px) {
-
-			
-
-		}
+		
 
 		
 		@media screen and (max-width: 736px) {
@@ -3884,6 +3880,7 @@ input, select, textarea {
 						display: -webkit-flex;
 						display: -ms-flex;
 						display: flex;
+						flex-wrap: wrap; 
 						height: inherit;
 						line-height: inherit;
 						margin: 0;
@@ -3907,6 +3904,12 @@ input, select, textarea {
 							background-image: none;
 							background-color: white;
 						}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			
 
 		}
 
