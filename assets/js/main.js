@@ -50,20 +50,20 @@
 			});
 	//Sidebar sticky
 		header.classList.add("sticky")
-	//	$window.onscroll = function() {
-// 			if(breakpoints.active('<=medium')
-// 			   myFunction()
-// 		};
+		$window.onscroll = function() {
+			if(breakpoints.active('<=medium')
+			   myFunction()
+		};
 
 // 		
 
-// 		function myFunction() {
-// 		  if ($window.pageYOffset > sticky) {
-// 		    $sidebar.classList.add("sticky");
-// 		  } else {
-// 		    $sidebar.classList.remove("sticky");
-// 		  }
-// 		}
+		function myFunction() {
+		  if ($window.pageYOffset > sticky) {
+		    header.classList.add("sticky");
+		  } else {
+		    header.classList.remove("sticky");
+		  }
+		}
 		
 	// Sidebar.
 		if ($sidebar.length > 0) {
